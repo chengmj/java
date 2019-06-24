@@ -2,7 +2,7 @@
 ### HelloWorld
 - java是区分大小写的
 - 类名与文件名要一致，如下示例文件名必须为HelloWorld.java
-```
+```java
 public class HelloWorld {
     public static void main(String[] args){
         System.out.println("Hello World!");
@@ -16,7 +16,7 @@ public class HelloWorld {
 - UTF-16用16个bit，即两个byte，这也是char占用两个byte的原因。当把char转成数字的时候，需要用int。
 - String不是java中的保留字。
 
-```
+```java
 public class HelloWorld {
     public static void main(String[] args){
         System.out.println("Hello World!");
